@@ -1,2 +1,2 @@
 
-https://syedfasihussaini.github.io/HTML personal site/
+https://syedfasihussaini.github.io/

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+  </head>
+  <body>
+  <h1><marquee behavior="scroll" direction="rtl" >Syed's Contact Details</marquee></h1>
+   <span title="Call Syed"> Ph no. +917097450534</span> <br>
+    Email ID: <a title="Mail Syed" href="mailto:sd.fasiullah440@gmail.com">sd.fasiullah440@gmail.com</a><br>
+    17-9-604/2A, <br>
+    Saidabad, Hyderabad-500024 <br>
+    Telangana <br>INDIA <br>
+    <!-- novalidate is used for submitting without validation -->
+    <form  action="mailto:sd.fasiullah440@gmail.com" method="post" enctype="text/plain">
+      <table>
+        <th>
+          <h3>Enter your details:</h3>
+        </th>
+    <tr>
+      <td><label>Your Name:</label></td>
+      <td><input type="text" name="YourName" placeholder="Enter Full Name"><br></td>
+      <tr>
+        <td><label>Your Contact Number:</label></td>
+        <td> <input type="number" name="number" placeholder="Enter Contact Number"><br></td>
+      </tr>
+      <tr>
+      <td><label>Your Email:</label></td>
+      <td> <input type="email" name="YourEmail" placeholder="Enter valid Email Address" required><br></td>
+    </tr>
+
+    <tr>
+      <td><label>Your Linkedin URL:</label></td>
+      <td> <input type="url" name="Linkedin" placeholder="Enter your Linkedin URL" required><br></td>
+    </tr>
+
+    <tr>
+      <td><label>Select Date:</label></td>
+      <td>  <input type="date" name="Date" value=""><br></td>
+    </tr>
+    <tr>
+      <td> <label>Choose Gender</label></td>
+      <td>
+       <input type="radio" name="Gender" value="Male">
+       <label>M</label>
+       <input type="radio" name="Gender" value="Female">
+       <label>F</label></td>
+     </tr> 
+     <tr> 
+      <td> <br> <label> <strong>HOBBIES:</strong> </label> </td>
+    </tr>
+      <tr>
+      <td>  <label>Swimming</label></td>
+      <td>  <input type="checkbox" name="HOBBIES" value="Swimming"></td>
+      </tr><br>
+      <tr>
+      <td> <label>pubg</label></td>
+      <td>  <input type="checkbox" name="HOBBIES" value="pubg"></td>
+    </tr><br>
+      <tr>
+      <td>  <label>Chess</label></td>
+      <td>  <input type="checkbox" name="HOBBIES" value="Chess"></td>
+    </tr> <br>
+      <tr>
+      <td>  <label>Dancing</label></td>
+      <td> <input type="checkbox" name="HOBBIES" value="Dancing"></td>
+      </tr>
+      <tr>
+      <td>  <label>Social n/w</label></td>
+      <td>  <input type="checkbox" name="HOBBIES" value="Social n/w"></td>
+      </tr>
+      <tr>
+      <td>  <label>Coding</label></td>
+      <td>  <input type="checkbox" name="HOBBIES" value="Coding"></td>
+      </tr>
+     <tr>
+      <td> <label>Upload your image</label></td>
+      <td> <input type="file" name="File" value="image"></td>
+     </tr>
+     <tr>
+<td>
+  <label>Address</label> </td> <br>
+  <td><textarea placeholder="Enter your Address" name="Address" cols="25" rows="7"></textarea>
+</td>
+
+     </tr>
+     <tr align="center">
+      <td><input type="submit" name="save" value="submit">
+       <input type="reset" name="reset" value="reset"></td>
+      </tr>
+    </table>
+    </form>
+    </body>
+</html>
